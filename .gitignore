@@ -1,0 +1,101 @@
+# Visual Studio / C# .gitignore
+
+# User-specific files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+build/
+Build/
+out/
+
+# Rider
+.idea/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Package directories
+# Ignore the packages folder used by older NuGet versions
+packages/
+
+# Visual Studio profiler
+*.psess
+*.vsp
+
+# MSTest test results
+TestResults/
+*.trx
+
+# Build and publish folders
+publish/
+PublishProfiles/
+*.publishsettings
+
+# Web
+wwwroot/node_modules/
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Entity Framework
+*.db
+*.db-journal
+
+# DotCover
+*.dotCover
+
+# Coverage results
+coverage*/
+*.coverage
+*.coveragexml
+
+# NCrunch
+_NCrunch_*
+.*crunch*
+
+# StyleCop
+StyleCopReport.xml
+
+# User secrets
+secrets.json
+
+# Certificates
+*.pfx
+
+# Symbol files
+*.pdb
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.DS_Store
+
+# Ignore log files
+*.log
+
+# Allow checking in appsettings.json but ignore local dev secrets
+appsettings.Development.json
+
+# Uncomment if using JetBrains Rider
+.idea/
+
+# vim
+.tmp
+.vim

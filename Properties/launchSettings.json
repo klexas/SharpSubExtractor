@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "cs": {
+      "commandName": "Project",
+      "commandLineArgs": "-i \"C:\\Users\\GG\\Downloads\\Detonator_Orgun_OVA_01 KINGMENU SUBS 2018.mp4\" --output 01.srt\r\n"
+    }
+  }
+}
